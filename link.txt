@@ -1,0 +1,8 @@
+Link packages di GitHub Container Registry:
+- karsajobs:
+  https://ghcr.io/muhammadabdiel/karsajobs:latest
+- karsajobs-ui:
+  https://ghcr.io/muhammadabdiel/karsajobs-ui:latest
+
+Link repository GitHub:
+https://github.com/muhammadabdiel/microservices-architecture
