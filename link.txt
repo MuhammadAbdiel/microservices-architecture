@@ -1,0 +1,8 @@
+Link packages di GitHub Container Registry:
+- order-service:
+  https://ghcr.io/muhammadabdiel/order-service:latest
+- shipping-service:
+  https://ghcr.io/muhammadabdiel/shipping-service:latest
+
+Link repository GitHub:
+https://github.com/muhammadabdiel/microservices-architecture
