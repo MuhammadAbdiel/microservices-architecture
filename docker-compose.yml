@@ -20,7 +20,7 @@ services:
     restart: always
     # mendefinisikan environment variables untuk URL RabbitMQ
     environment:
-      AMQP_URL: "amqp://guest:guest@rabbitmq-local:5672/"
+      AMQP_URL: "amqp://guest:guest@rabbitmq-svc:5672/"
 
   shipping-svc:
     # menggunakan image dari GitHub Container Registry
@@ -38,7 +38,7 @@ services:
     restart: always
     # mendefinisikan environment variables untuk URL RabbitMQ
     environment:
-      AMQP_URL: "amqp://guest:guest@rabbitmq-local:5672/"
+      AMQP_URL: "amqp://guest:guest@rabbitmq-svc:5672/"
 
   rabbitmq-svc:
     # menggunakan image RabbitMQ dari Docker Hub
